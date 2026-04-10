@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>TrustWork — Onboarding</title>
+<title>payronto — Onboarding</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -356,7 +356,7 @@
         <path d="M10 2L3 6v4c0 4.4 2.9 8.5 7 9.9 4.1-1.4 7-5.5 7-9.9V6L10 2z" fill="rgba(255,255,255,0.2)" stroke="#fff" stroke-width="1.5"/>
         <path d="M7 10l2 2 4-4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      TrustWork
+      payronto
     </div>
     <span class="no-scam-pill">No Scam Zone</span>
   </div>
@@ -370,7 +370,7 @@
 
     <!-- SCREEN 0: Role selection -->
     <div class="screen active" id="screen-0">
-      <div class="screen-title">Welcome to TrustWork</div>
+      <div class="screen-title">Welcome to payronto</div>
       <div class="screen-sub">Safe jobs. Secure payments. No scams. How will you be using the platform?</div>
       <div class="role-grid">
         <div class="role-card" id="role-worker" onclick="selectRole('worker')">
@@ -507,7 +507,7 @@
     <!-- SCREEN 4: ID upload -->
     <div class="screen" id="screen-4">
       <div class="screen-title">Verify your identity</div>
-      <div class="screen-sub">Upload a government-issued ID. Reviewed within 2 hours. This is what makes TrustWork a no-scam zone.</div>
+      <div class="screen-sub">Upload a government-issued ID. Reviewed within 2 hours. This is what makes payronto a no-scam zone.</div>
       <div class="form-group">
         <label class="form-label">ID type</label>
         <select class="form-select">
@@ -568,7 +568,7 @@
       </div>
       <div class="trust-box">
         <span class="trust-box-icon">🔒</span>
-        Powered by Paystack. Your bank details are encrypted end-to-end and never stored on TrustWork servers.
+        Powered by Paystack. Your bank details are encrypted end-to-end and never stored on payronto servers.
       </div>
       <div class="btn-row">
         <button class="btn-back" onclick="prev()">←</button>
@@ -687,7 +687,7 @@
 
   function setupSuccess() {
     if (role === 'worker') {
-      document.getElementById('success-title').textContent = 'Welcome to TrustWork!';
+      document.getElementById('success-title').textContent = 'Welcome to payronto!';
       document.getElementById('success-sub').textContent = 'Your profile is under review. You\'ll get an SMS within 2 hours. Here\'s what to expect:';
       document.getElementById('success-perks').innerHTML = `
         <div class="perk"><div class="perk-dot"></div>ID verification completes within 2 hours</div>
